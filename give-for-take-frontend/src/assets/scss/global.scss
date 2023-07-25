@@ -1,0 +1,55 @@
+@import "variables";
+
+@font-face {
+  font-family: "sohne";
+  src: url("@/assets/fonts/sohne-300-normal.woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "sohne";
+  src: url("@/assets/fonts/sohne-400-normal.woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "sohne";
+  src: url("@/assets/fonts/sohne-500-normal.woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "sohne";
+  src: url("@/assets/fonts/sohne-700-normal.woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "source-serif-pro";
+  font-weight: 400;
+  src: url("@/assets/fonts/source-serif-pro-400-normal.woff");
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-primary {
+  color: $text-color-primary;
+}
+
+.text-secondary {
+  color: $text-color-secondary;
+}
